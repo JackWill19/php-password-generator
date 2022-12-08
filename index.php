@@ -22,7 +22,7 @@ if(isset($_POST['length-input'])){
     <title>Password Generator</title>
 </head>
 <body>
-    <form method="post" action="password-generator.php"> <!-- CREATING FORM-->
+    <form method="post" action=""> <!-- CREATING FORM-->
         <label for="password-length">Enter Password Length:</label> <br> <!-- LABELLING FORM-->
         <input type="number" name="length-input" id="length-input"> <br> <!-- INPUT FOR PASSWORD LENGTH -->
         <input type="submit" class="submit-btn" value="Generate Password"> <br> <!-- INPUT FOR PASSWORD LENGTH -->
